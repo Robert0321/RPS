@@ -13,6 +13,8 @@
 		E105AADF2927685200A49656 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E105AADD2927685200A49656 /* Main.storyboard */; };
 		E105AAE12927685800A49656 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E105AAE02927685800A49656 /* Assets.xcassets */; };
 		E105AAE42927685800A49656 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E105AAE22927685800A49656 /* LaunchScreen.storyboard */; };
+		E105AAEC292768CA00A49656 /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = E105AAEB292768CA00A49656 /* Sign.swift */; };
+		E105AAEE292768FA00A49656 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E105AAED292768FA00A49656 /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E105AAE02927685800A49656 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E105AAE32927685800A49656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E105AAE52927685800A49656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E105AAEB292768CA00A49656 /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
+		E105AAED292768FA00A49656 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				E105AAD72927685200A49656 /* AppDelegate.swift */,
 				E105AAD92927685200A49656 /* SceneDelegate.swift */,
+				E105AAEB292768CA00A49656 /* Sign.swift */,
+				E105AAED292768FA00A49656 /* GameState.swift */,
 				E105AADB2927685200A49656 /* ViewController.swift */,
 				E105AADD2927685200A49656 /* Main.storyboard */,
 				E105AAE02927685800A49656 /* Assets.xcassets */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E105AADC2927685200A49656 /* ViewController.swift in Sources */,
+				E105AAEE292768FA00A49656 /* GameState.swift in Sources */,
 				E105AAD82927685200A49656 /* AppDelegate.swift in Sources */,
+				E105AAEC292768CA00A49656 /* Sign.swift in Sources */,
 				E105AADA2927685200A49656 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
